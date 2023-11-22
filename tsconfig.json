@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es2022",
+    "module": "commonjs",
+    "lib": ["dom", "es2022"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": ".erb/dll",
+    "baseUrl": ".",
+    "paths": {
+      "@nworks/*": ["./src/*"],
+      "@nworks-main/*": ["./src/main/*"],
+      "@nworks-renderer/*": ["./src/renderer/*"],
+      "@atoms/*": ["./src/renderer/components/atoms/*"],
+      "@molecules/*": ["./src/renderer/components/molecules/*"],
+      "@organisms/*": ["./src/renderer/components/organisms/*"],
+      "@layouts/*": ["./src/renderer/layouts/*"],
+      "@hooks": ["./src/renderer/hooks"],
+      "@hooks/*": ["./src/renderer/hooks/*"],
+      "@constants/*": ["./src/renderer/constants/*"],
+      "@constants": ["./src/renderer/constants"],
+      "@database": ["./src/renderer/database"],
+      "@database/*": ["./src/renderer/database/*"],
+      "@utilities": ["./src/renderer/utilities"],
+      "@utilities/*": ["./src/renderer/utilities/*"],
+      "@state/*": ["./src/renderer/state/*"],
+      "@pages/*": ["./src/renderer/pages/*"],
+      "@assets/*": ["./assets/*"]
+    }
+  },
+  "exclude": ["test", "release/build", "release/app/dist", ".erb/dll"]
+}

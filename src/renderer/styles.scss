@@ -1,0 +1,160 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+  #root {
+    height: 100%;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: rgba(0,0,0, .85);
+    font-weight: 500;
+  }
+
+  .graphiql-container {
+    flex: 1;
+  }
+
+  .loginBtn {
+    width: 100%;
+  }
+
+  .ant-tooltip-inner {
+    color: #000000 !important;
+  }
+
+  .ant-select-selection-search {
+    left: 5px !important;
+    right: 5px !important;
+  }
+
+  .ant-upload-list-item {
+    height: auto !important;
+  }
+
+  .ant-typography {
+    line-height: inherit;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12px !important;
+  }
+
+  .ant-form-item-explain {
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .ant-modal-confirm-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .ant-timeline-item-last {
+    padding-bottom: 0;
+  }
+
+  .ant-tabs-content {
+    width: 100%;
+    display: flex;
+  }
+
+  .ant-tabs-tabpane {
+    flex: none;
+    width: 100%;
+    outline: 0;
+  }
+
+  .ant-tabs-tabpane-hidden {
+    display: none !important;
+  }
+
+  .rc-virtual-list-scrollbar-show {
+    display: block !important;
+  }
+
+  .ant-modal-community {
+    .ant-modal {
+      height: 100vh;
+      max-width: 100vw;
+      margin: 0 auto;
+      top: 0;
+      padding-bottom: 0;
+    }
+
+    .ant-modal-header {
+      padding: 50px 24px;
+      border-bottom: none;
+    }
+
+    .ant-modal .ant-modal-close {
+      background: #120638;
+      border-radius: 4px;
+      height: 35px;
+      width: 35px;
+      color: white;
+      font-weight: bold;
+      margin: 10px;
+    }
+
+    .ant-modal-close-x {
+      width: 35px;
+      height: 35px;
+      font-weight: 600;
+      line-height: 35px;
+    }
+
+    .ant-modal-content {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .ant-modal-title {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 110%;
+      text-align: center;
+      margin-bottom: auto;
+    }
+
+    .ant-modal-body {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .ant-modal-content .ant-btn {
+      background-color: white;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 100%;
+      height: 40px;
+      text-align: center;
+      color: #000c17;
+      border: 2px solid #72ddbd;
+      border-radius: 20px;
+      margin-top: auto;
+    }
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
